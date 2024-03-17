@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --prymary-color: #FF8400;
+    --secondary-color: #FFD93D;
+    --terciary-color: #900C3F;
+    --black-def: black;
+    --white-def: white;
+
+}
+
+body {
+    background-color: var(--terciary-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+.block {
+    margin-top: 10%;
+}
+
+.block__container__title {
+    width: 60%;
+}
+
+.block__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__container__anchors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    width: 40rem;
+}
+
+.anchors {
+    border: 0.01rem solid var(--black-def);
+    color: var(--black-def);
+    background-color: var(--secondary-color);
+    border-radius: 0.4rem;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.block__container__formBtn {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.input {
+    background-color: var(--white-def);
+    border: 0.0001rem solid var(--black-def);
+    border-radius: 2rem;
+    padding: 0.7rem;
+    width: 20rem;
+    margin: 1rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+}
+
+.formBtn__button {
+    background-color: var(--white-def);
+    border: 0.01rem solid var(--black-def);
+    border-radius: 2rem;
+    padding: 0.7rem;
+    width: 15rem;
+    margin: 1rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+}
