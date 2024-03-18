@@ -22,7 +22,7 @@ body {
 }
 
 .block__container__title {
-    width: 60%;
+    font-size: 5rem;
 }
 
 .block__container {
@@ -56,6 +56,8 @@ body {
 .block__container__formBtn {
     display: flex;
     margin-top: 4rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .input {
@@ -78,4 +80,24 @@ body {
     margin: 1rem;
     font-family: var(--main-font);
     font-weight: 500;
+}
+
+.content-chat {
+    margin-top: 1.5rem;
+    padding: 10rem;
+    width: 35rem;
+    border: 0.1rem solid var(--black-def);
+    border-radius: 0.5rem;
+}
+
+.anchor__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-anchor {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 2rem;
 }
