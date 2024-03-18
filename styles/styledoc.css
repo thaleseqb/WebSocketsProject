@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --secondary-color: #fff7d9;
+    --terciary-color: #e3e3e3;
+    --black-def: black;
+    --white-def: white;
+    --blue: #8583ff;
+    --dark-blue: #4a47f5;
+}
+
+
+body {
+    background-image: url("../assets/doguinho.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--white-def);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+.block__container__title {
+    color: var(--black-def);
+}
+
+.content-chat {
+    margin-top: 1.5rem;
+    padding-bottom: 10rem;
+    padding-right: 20rem;
+    width: 35rem;
+    border: 0.1rem solid var(--black-def);
+    border-radius: 0.5rem;
+    background: var(--terciary-color);
+    opacity: 0.5;
+    font-family: var(--main-font);
+    font-weight: 500;
+}
+
+.anchor__container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.back-anchor {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--black-def);
+    background-color: var(--white-def);
+    border: 0.1rem solid var(--black-def);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-right: 19.5rem;
+}
+
+.back-anchor:hover {
+    color: var(--blue);
+    background-color: var(--secondary-color);
+
+}
+
+.delete-content {
+    border: 0.1rem solid var(--black-def);
+    border-radius: 0.5rem;
+    padding: 0.5rem 3rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+    background-color: var(--blue);
+    font-size: 1rem;
+    margin-left: 19.5rem;
+}
+
+.delete-content:hover {
+    color: var(--white-def);
+    background-color: var(--dark-blue);
+}
+
+.doc__container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-def);
+}
